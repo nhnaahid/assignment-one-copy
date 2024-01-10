@@ -1,0 +1,487 @@
+/* Shared Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    max-width: 1320px;
+    margin: 1% auto;
+}
+
+/* Header-Banner Style */
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 495px;
+    margin-top: 3%;
+}
+
+.banner-text1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10%;
+}
+
+.banner-text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+    padding: 1% 20%;
+}
+
+/* Discount Style */
+.discount {
+    width: 50%;
+    max-width: 1320px;
+    margin: 5% auto;
+}
+
+.discount-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+
+.discount-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.discount-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.discount-img {
+    margin-top: 5%;
+}
+
+/* Midnight Party Style */
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/banner/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 480px;
+}
+
+.party-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.party-text {
+    width: 40%;
+    margin: 10%;
+}
+
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.party-text button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 25px;
+    background: none;
+    border: none;
+}
+
+.party-img img {
+    width: 70%;
+    height: auto;
+    padding-top: 20%;
+}
+
+/* Join now style */
+.join-now {
+    /* background-color: antiquewhite; */
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    height: 300px;
+    margin-top: 5%;
+    padding-top: 8%;
+}
+
+.join-now p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.join-now span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.join-now button {
+    border-radius: 4px;
+    background: #F00;
+    margin: 3%;
+    padding: 11px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* coming soon style */
+.coming-soon {
+    height: 500px;
+    /* background: rgba(255, 0, 0, 0.05); */
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.coming-soon p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.coming-soon-left h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.coming-soon-left h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.coming-soon-right h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 115px;
+}
+
+.coming-soon-mid {
+    border-radius: 450px;
+    border: 12px solid #F00;
+    padding: 22px;
+    margin-right: 55px;
+}
+
+/* Holiday Sale section */
+.sale {
+    height: 760px;
+    /* background-color:aquamarine; */
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.sale-top {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.sale-top h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sale-top h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.sale-top span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.sale-top p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 2%;
+}
+
+.sale-mid {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 2%;
+}
+
+.sale-mid-img1 {
+    position: relative;
+    top: 0px;
+    left: 170px;
+}
+
+.sale-bottom {
+    width: 100%;
+    height: 170px;
+    margin-top: -5px;
+}
+
+.sale-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+.sale-bottom-left {
+    width: 50%;
+    height: 450px;
+    /* background-color: aquamarine; */
+    position: relative;
+    bottom: 500px;
+    left: 2px;
+}
+
+.sale-bottom-left img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Awesome Portfolio Style */
+.portfolio {
+    height: 770px;
+    /* background-color: aliceblue; */
+}
+
+.portfolio-text {
+    width: 70%;
+}
+
+.portfolio-text h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.portfolio-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+/* Porfolio images */
+.portfolio-items1 {
+    width: 100%;
+    /* height: 820px; */
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.portfolio-items2 {
+    width: 100%;
+    /* height: 820px; */
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.portfolio-img-container {
+    width: 31%;
+    height: 300px;
+    /* background-color: aquamarine; */
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio img:hover {
+    /* border: 2px solid white; */
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px rgb(131, 123, 123);
+}
+
+/* Newsletter Style */
+.newsletter {
+    height: 480px;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.newsletter-icon {
+    padding-top: 5%;
+}
+
+.newsletter-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+.newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1% 20%;
+}
+
+.newsletter-box-btn {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 2%;
+}
+
+.newsletter-box-btn input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 40%;
+    padding: 1.5%;
+}
+
+.newsletter-box-btn button {
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1.2%;
+}
+
+/* Footer style */
+footer {
+    background: #070211;
+    height: 450px;
+}
+
+footer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+footer hr {
+    width: 75%;
+    margin: 0 auto;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+
+.footer-section-top {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* height: 1%; */
+    margin: 5% auto 0px;
+    padding: 5%;
+    align-items: center;
+}
+
+.social-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.social-container img {
+    margin-right: 3px;
+    height: 36px;
+    width: 36px;
+}
+
+.footer-section-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
+}
+/* The End */
